@@ -638,7 +638,7 @@ export default {
 		gaibian(){
 			this.isShow = true;
 			console.log(this.searchVal)
-		get(`http://api.cat-shop.penkuoer.com/api/v1/products?name=${this.searchVal}`)
+		get(`https://api.cat-shop.penkuoer.com/api/v1/products?name=${this.searchVal}`)
 		.then(res=>{
 			
 			console.log(res)

@@ -325,7 +325,7 @@ export default {
 				console.log("aa")
 				console.log(this.products)
 				this.products.splice(0,1)
-				 axios.delete(`http://api.cat-shop.penkuoer.com/api/v1/shop_carts/${id}`,{
+				 axios.delete(`https://api.cat-shop.penkuoer.com/api/v1/shop_carts/${id}`,{
               headers:{
 				'Authorization':`bearer ${sessionStorage.getItem('token')}`
 			  }
@@ -339,7 +339,7 @@ export default {
 			},
 			
     loadData(){
-      get(`http://localhost:3000/api/v1/products?page=${this.page}`)
+      get(`https://localhost:3000/api/v1/products?page=${this.page}`)
         .then(res => {
           console.log(res)
           this.products = this.products.concat(res.data.products)
@@ -351,7 +351,7 @@ export default {
     }
 	},
 	created(){
-		get('http://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
+		get('https://api.cat-shop.penkuoer.com/api/v1/shop_carts',{
 			headers:{
 				'Authorization':`bearer ${sessionStorage.getItem('token')}`
 			}

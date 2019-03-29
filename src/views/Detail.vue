@@ -1436,7 +1436,7 @@ export default {
     },
     addToCart() {
       post(
-        "http://api.cat-shop.penkuoer.com/api/v1/shop_carts",
+        "https://api.cat-shop.penkuoer.com/api/v1/shop_carts",
         {
           quantity: this.products[0].quantity,
           product: this.$route.params.id
@@ -1478,7 +1478,7 @@ export default {
   created() {
     const id = this.$route.params.id;
     console.log(id);
-    get(`http://api.cat-shop.penkuoer.com/api/v1/products/${id}`)
+    get(`https://api.cat-shop.penkuoer.com/api/v1/products/${id}`)
       .then(res => {
         console.log(res);
         // console.log(res.data.coverImg)

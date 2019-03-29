@@ -140,7 +140,7 @@
 								<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 boxes" id="baicao">
 									<li v-for="item in products" :key="item._id">
 										<div class="i-pic limit">
-											<img :src="'http://api.cat-shop.penkuoer.com'+item.coverImg" @click="Detail(item._id)"/>											
+											<img :src="'https://api.cat-shop.penkuoer.com'+item.coverImg" @click="Detail(item._id)"/>											
 											<p class="title fl">{{item.name}}</p>
 											<p class="price fl">
 												<b>¥</b>
@@ -403,7 +403,7 @@ export default {
   created(){
 	  console.log(this.$route)
 	  if(this.$route.params.name){
-		  get(`http://api.cat-shop.penkuoer.com/api/v1/products?name=${this.$route.params.name}`)
+		  get(`https://api.cat-shop.penkuoer.com/api/v1/products?name=${this.$route.params.name}`)
 		  .then(res => {
 		     console.log(res.data)
 		     this.products=res.data.products
@@ -411,7 +411,7 @@ export default {
 		   })
 		  
 	  }else{
-		   get('http://api.cat-shop.penkuoer.com/api/v1/products')
+		   get('https://api.cat-shop.penkuoer.com/api/v1/products')
 		  .then(res => {
 		     console.log(res.data)
 		     this.products=res.data.products
