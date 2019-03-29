@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img,
+
+span {
+	display: block;
+}
+
+body {
+	height: 100%;
+	
+	font-family: "微软雅黑";
+}
+
+.navmain {
+	width: 100%;
+	height: 30px;
+	background: #e2e3e4;
+	/*border-bottom:1px solid #ccc;*/
+}
+.list3 .specil .hello{color:#f00;}
+.nav {
+	width: 1190px;
+	height: 30px;
+	margin: 0 auto;
+	/*background:#f00;*/
+	/*position: relative;*/
+}
+
+
+.list3 {
+	width: 718px;
+	height: 30px;
+	float: right;
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+.list3 li {
+	float: left;
+}
+
+.specil em {
+	font-style: normal;
+}
+
+.list3 li {
+	width: 72px;
+	height: 12px;
+	border-right: 1px solid #cecece;
+	text-align: center;
+	line-height: 12px;
+}
+
+.list3 .specil {
+	width: 180px;
+	height: 12px;
+}
+
+.list3 a {
+	color: #999;
+}
+
+.specil em {
+	margin-left: 6px;
+	color: #f00;
+}
+
+
+.foot1{width:100%;height:100px;margin-top:29px;border-bottom:1px solid #cecece;padding-left:110px;background:#f0f3ef}
+.foot1 img{float: left;padding:0 45px;margin-top:29px;}
+/*.foot1 end*/
+.foot2{width:1192px;height:180px;margin-top:29px;border-bottom:1px solid #cecece;margin:auto;padding-top:20px;background:#f0f3ef}
+
+.foot2 ul{float: left;padding:0 55px;}
+.foot2 img{margin-left:980px;}
+.foot2 ul span{margin-bottom:12px;color:#666;font-weight: 600;font-size:13px}
+.foot2 a{color:#666;font-size:12px}
+/*.foot2 end*/
+
+.foot3{width:1136px;height:200px;margin:auto;padding-top:20px;background:#f0f3ef}
+.foot3 .ul1 li{float: left;font-size:12px;width:72px;height:12px;border-right:1px solid #cecece;text-align: center;}
+.foot3 .ul1 a {color:#666;font-size:12px}
+
+.foot3 .ul2{margin-top:28px;margin-left:198px}
+.foot3 .ul2 li{float: left;}
+.foot3 .ul2 a{color:#999;font-size:12px;}
+
+.foot3 .ul3{margin-top:52px;margin-left:162px}
+.foot3 .ul3 li{float: left;}
+.foot3 .ul3 a{color:#999;font-size:12px;}
+
+.foot3 .ul4{margin-top:78px;margin-left:187px}
+.foot3 .ul4 li{float: left;}
+.foot3 .ul4 a{color:#999;font-size:12px;}
+.foot3 img{margin-left:280px;margin-top:100px;}
+.ftotal{width:100%;background:#f0f3ef}
+
+
+.titlebox {
+	width: 100%;
+	height: 140px;
+	position: relative;
+}
+.logoo{
+	position: absolute;
+	left:70px;
+	top:15px;
+}
+.title {
+	width: 1190px;
+	height: 140px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.title .first {
+	width: 1190px;
+	height: 37px;
+	padding-top: 23px;
+}
+
+.first form {
+	margin-left: 320px;
+	width: 550px;
+	height: 35px;
+	position: relative;
+	border:1px solid #cecece;
+}
+
+.first .icon-xiangjix {
+	color: #cecece;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.first .icon-sousuo {
+	color: #fff;
+	cursor: pointer;
+}
+
+.first .icon-xiangjix:hover {
+	color: #f00;
+	font-size: 20px;
+}
+
+.first form span {
+	position: absolute;
+	left: 400px;
+	top: 20px
+}
+
+.first form p {
+	position: absolute;
+	left: 515px;
+	top: 8px
+}
+
+.first .txt {
+	width: 500px;
+	height: 35px;
+	border: 0;
+	float: left;
+}
+
+.first .sub {
+	width: 50px;
+	height: 35px;
+	border: 0;
+	background: #f00;
+	float: left;
+}
+
+.first .cart {
+	width: 190px;
+	height: 35px;
+	border: 1px solid #e3e4e5;
+	margin-left: 900px;
+	margin-top: -35px;
+	background: #fff;
+}
+
+.first .cart img {
+	margin-left: 52px;
+	margin-top: 8px;
+	display: block;
+}
+
+.first span {
+	font-size: 12px;
+	color: #f00;
+	margin-left: 75px;
+	margin-top: -14px;
+	display: block;
+}
+
+.cart .num {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #f00;
+	font-size: 12px;
+	text-align: center;
+	line-height: 14px;
+	margin-left: 140px;
+	margin-top: -20px;
+}
+
+
+/*first end*/
+
+.title .second li {
+	float: left;
+	padding: 5px;
+}
+
+.title .second {
+	width: 550px;
+	height: 20px;
+	margin-left: 318px;
+	font-size: 12px;
+}
+
+.second a {
+	color: #999;
+}
+
+.title .second .a1 {
+	color: #f00;
+}
+
+
+/*second end*/
+
+.title .third {
+	width: 790px;
+	height: 60px;
+	position: absolute;
+	left: 227px;
+	font-size: 13px;
+}
+
+
+/*.title ul{width:717px;height:12px;font-size:12px}*/
+
+.title .third ul {
+	margin-top: 25px;
+}
+
+.title .third li {
+	float: left;
+	padding: 0 12px 0 12px;
+}
+
+.title .third a {
+	color: #000;
+}
+
+.title .ul1 .li1 {
+	width: 26px;
+	height: 17px;
+	border-right: 1px solid #cecece;
+	text-align: center;
+}
+
+.title .ul2 .li2 {
+	width: 56px;
+	height: 17px;
+	border-right: 1px solid #cecece;
+	text-align: center;
+}
+
+.bg02 {
+	margin-left: 935px;
+	margin-top: 2px;
+	display: block;
+}
+
+
+
+.nav .list3 .specil0{margin-left:-430px;border:0;}

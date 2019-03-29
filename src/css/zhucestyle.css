@@ -1,0 +1,46 @@
+*{margin:0;padding:0}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.head{width:100%;height:100px;box-shadow: 0px 5px 6px  #f2f2f2;}
+.hmain{width:1211px;height:80px;margin:auto;padding-top:20px;}
+.head img{display: block;}
+.hmain a{color:#f00}
+.head span{display: block;float:right}
+.head p{display: block;float:left;margin-left:1067px;color:#9999a6}
+.head em{display:block;float:left;margin-top:-53px;margin-left:160px;font-style: normal;font-size:25px;}
+/*head end*/
+
+.main{width:430px;height:410px;margin:82px auto;}
+.num1{width:60px;height:55px;float:left}
+.num1 span{width:24px;height:24px;background: #33bb44;border-radius: 50%;font-size:12px;text-align: center;display: block;line-height:24px;margin-left:16px;color:#fff;}
+.num1 p{font-size:12px;width:60px;height:21px;line-height:21px;margin-top:10px;color:#33bb44}
+.dashed{float: left;}
+
+.num2{width:72px;height:55px;float:left}
+.num2 span{width:24px;height:24px;background: #fff;border:1px solid #cfcfcf;border-radius: 50%;font-size:12px;text-align: center;display: block;line-height:24px;margin-left:22px;color:#cfcfcf;}
+.num2 p{font-size:12px;width:72px;height:21px;line-height:21px;margin-top:10px;color:#999}
+
+.num3{width:48px;height:55px;float:left}
+.num3 span{width:24px;height:24px;background: #fff;border:1px solid #cfcfcf;border-radius: 50%;font-size:12px;text-align: center;display: block;line-height:24px;margin-left:14px;color:#cfcfcf;}
+.num3 p{font-size:12px;width:48px;height:21px;line-height:21px;margin-top:10px;color:#999}
+/*numend*/
+
+form{width:408px;height:252px;float: left;margin-top:55px;padding-left:20px}
+#text{width:350px;height:30px;margin-top:10px}
+#psd{width:350px;height:30px;margin-top:10px;margin-bottom:10px;}
+#ema{width:350px;height:30px;}
+#btn{width:80px;height:50px;border:0;background:#f00;border-radius: 20px;font-size:14px;color:#fff;margin-top:20px;margin-left:10px;}
+/*main end*/
+
+.footer{width:1210px;height:100px;margin:auto;border-top:1px solid #cecece;padding-top:35px;}
+.footer li{float:left;font-size:12px;width:78px;height:12px;border-right:1px solid #cecece;text-align: center;}
+.footer ul{width:895px;height:12px;margin:auto}
+.footer ul .last{border:0}
+.footer a{color:#999}
+.footer img{display: block;margin-left:484px;margin-top:25px;}
+
+.ebox{position: absolute;top:350px;display: none;}
+.ebox p{width:10px;height:15px;border:1px solid darkorange;border-radius: 50%;text-align: center;line-height:15px;font-size:12px;float:left;padding-left:5px;color:darkorange;}
+.ebox span{display: block;font-size:10px;float:left;color:darkorange;margin-left:5px;}
+.sure{position: absolute;left:850px;top:310px;display:none}

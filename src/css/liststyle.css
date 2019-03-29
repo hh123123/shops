@@ -1,0 +1,100 @@
+*{margin:0;padding:0}
+li{list-style: none;}
+.headerbox{width:100%;height:35px;border-bottom:2px solid #952f2b}
+.h-main{width:1190px;height:35px;margin: -40px auto}
+.h-main ul li{float:left;font-size:14px;line-height:35px;padding:0 22px;font-weight: 600;}
+.h-main ul a{color:#000;}
+.h-main .li-1{width:148px;height:35px;background:#f30215;text-align: center;color:#fff;font-weight: 100;}
+
+.main-1{width:1190px;height:44px;margin:auto;font-size:12px;line-height:44px;}
+.main-1 p{float:left;}
+.main-1 span{float:left;}
+
+.main-2{width:1190px;height:92px;margin:auto;background:#f1f1f3;padding-top:8px;}
+.main-2 img{margin-left:8px;float:left;}
+.main-2 p{float:left;font-size:13px;margin-left:15px;margin-top:15px;}
+.btn-1{width:90px;height:33px;background:#f4f4f4;border:1px solid #dfdfe1;float: left;margin-left:666px;}
+.btn-2{width:90px;height:33px;background:#db3e39;border:1px solid #98584c;float: left;margin-left:836px;margin-top:10px;}
+
+
+.main-3{width:1190px;height:177px;margin:10px auto;}
+.main-3 ul{border-top:1px solid #cecece}
+.main-3 li{float:left;width:1190px;height:34px;border-bottom:1px solid #cecece;font-size:12px;line-height:34px;}
+.main-3 p{float:left;width:110px;height:34px;background:#f3f3f3;text-align: center;}
+.main-3 span{float:left;margin-left:10px;}
+
+.main-4{position: absolute;}
+
+#olist  {float:left;width:1190px;height:100%;;position: absolute;top:450px;left:-320px;}
+#olist li{float:left;position: relative;border:1px solid #cecece;margin: 2px;width:238px;height:384px;}
+#olist li img{display: block;float: left;}
+.addBtn{position: absolute;left:60px;top:340px;width:100px;height:40px;background:#f00;border:0;border-radius: 20px;cursor: pointer;}
+#olist p{position: absolute;left:20px;top:230px;width:200px;height:20px;font-size:14px;}
+#olist span{position: absolute;left:20px;top:320px;width:100px;height:20px;}
+
+.bline {
+	width: 0;
+	height: 625px;
+	border: 5px solid #7b6d6d;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index:300;
+	/*display: none;*/
+}
+
+.seven {
+	width: 35px;
+	height: 251px;
+	position: fixed;
+	right: 60px;
+	top: 234px;
+	/*display:none;*/
+}
+
+.seven span {
+	width: 32px;
+	height: 35px;
+	display: block;
+	background: #7b6d6d;
+	padding-left:3px;
+	line-height: 35px;
+
+	margin-top:-35px;
+	
+}
+
+.seven span:hover {
+	background: #cf1224
+}
+/*.sevenp{display:none;}*/
+.sevenp p{font-size:12px;color:#fff;text-align: center;line-height:35px;border-top-left-radius: 5px;border-bottom-left-radius:5px;
+/*display:none;*/
+}
+
+
+.s-p1{width:60px;height:35px;background:#cf1224;position: fixed;right:-25px;top:200px;}
+.s-p2{width:60px;height:35px;background:#cf1224;position: fixed;right:-25px;top:236px;}
+.s-p3{width:60px;height:35px;background:#cf1224;position: fixed;right:-25px;top:272px;}
+
+.s-p5{width:60px;height:35px;background:#cf1224;position: fixed;right:-25px;top:308px;}
+
+.icon-wode{position: fixed;right:0;top:235px;}
+.icon-gouwuchekong{position: fixed;right:0;top:271px;}
+.icon-guanzhu{position: fixed;right:0;top:307px;}
+
+.icon-xiaoxi{position: fixed;right:0;top:343px;}
+
+
+
+.fanhui .f-p1{width:60px;height:35px;position: fixed;right:-25px;top:550px;font-size:12px;background:#cf1224;text-align: center;line-height:35px;color:#fff;border-top-left-radius: 5px;border-bottom-left-radius:5px;}
+.icon-shang{width:32px;height:35px;background: #7b6d6d;position: fixed;right:5px;top:550px;padding-left:3px;line-height:35px;}
+.icon-shujuguanlisvg68{width:32px;height:35px;background: #7b6d6d;position: fixed;right:5px;top:588px;padding-left:3px;line-height:35px;}
+.fanhui .f-p2{width:60px;height:35px;position: fixed;right:-25px;top:588px;font-size:12px;background:#cf1224;text-align: center;line-height:35px;color:#fff;border-top-left-radius: 5px;border-bottom-left-radius:5px;}
+
+.fanhui .f-p0{width:60px;height:35px;position: fixed;right:-25px;top:512px;font-size:12px;background:#cf1224;text-align: center;line-height:35px;color:#fff;border-top-left-radius: 5px;border-bottom-left-radius:5px;}
+.icon-qrcode{width:32px;height:35px;background: #7b6d6d;position: fixed;right:5px;top:512px;padding-left:3px;line-height:35px;}
+#link{width:20px;height:20px;background:#b61d1d;position: fixed;left:1325px;top:225px;z-index: 9999999;font-size:12px;border-radius: 7px;text-align: center;line-height:20px;}
+
+
+
